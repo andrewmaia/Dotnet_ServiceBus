@@ -56,6 +56,7 @@ finally
 // handle received messages
 async Task MessageHandler(ProcessMessageEventArgs args)
 {
+    Thread.Sleep(10000);
     string body = args.Message.Body.ToString();
     Console.WriteLine($"Received: {body}");
 

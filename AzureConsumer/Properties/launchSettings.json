@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AzureConsumer": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
